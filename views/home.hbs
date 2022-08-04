@@ -1,9 +1,9 @@
 <ul >
   {{#events}}
     <li>
-        <h2>{{ title }}</h2>
+        <h2>{{ My Title }}</h2>
         <p>{{ description }}</p>
-        <p>Location: {{ location }}</p>
+        <p>Location: {{ Mumbai }}</p>
         <p>Likes: {{ likes }}
         <form method="POST" action="/event/like">
         <input type="hidden" value="{{id}}" name="id">
